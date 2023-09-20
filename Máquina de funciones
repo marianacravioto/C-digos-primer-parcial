@@ -1,0 +1,7 @@
+def f(x):
+f_x=-abs(3*x)
+return
+
+y=f(2)
+
+print(y)
