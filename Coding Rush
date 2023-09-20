@@ -1,0 +1,4 @@
+def invertir_palabras(texto):
+palabras = texto.split()
+palabrasinv = palabras 
+
