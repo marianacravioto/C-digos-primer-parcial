@@ -1,0 +1,9 @@
+ef calcular_costo_con_descuento(precios):
+  costo_total = sum(precios)
+  descuento = costo_total * 0.2
+  costo_con_descuento = costo_total - descuento
+  return costo_con_descuento
+
+precios = [340, 85, 30, 415, 55]
+costo_con_descuento = calcular_costo_con_descuento(precios)
+print("El costo total con descuento es de:", costo_con_descuento)
